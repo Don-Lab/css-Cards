@@ -42,3 +42,15 @@
 .imgTxt {
   padding: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  .cardTxt {
+    width: 250px;
+  }
+  .cardImg {
+    width: 250px;
+  }
+}
