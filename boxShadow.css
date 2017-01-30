@@ -1,0 +1,44 @@
+/*box-shadow CSS*/
+* {
+  font-family: Tahoma;
+  box-sizing: border-box;
+}
+.row:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+[class*="col-"] {
+  padding: 15px;
+  float: left;
+}
+.col-50 {
+  width: 50%;
+}
+.col-100 {
+  width: 100%;
+}
+
+.cardTxt {
+  width: 300px; /*best to have the width at a constant size*/
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /*repeating the dementions and rgba() creates a fade effect*/
+  text-align: center;
+}
+.txt {
+  background-color: #4DC9FF;
+  color: #fff;
+  padding: 10px;
+  font-size: 150%;
+}
+.txtSM {
+  padding: 10px;
+}
+
+.cardImg {
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: center;
+}
+.imgTxt {
+  padding: 10px;
+}
